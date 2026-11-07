@@ -1,6 +1,7 @@
 # ZIVA-APR-NNN: Registro de aprobación
 
-- **Estado:** BORRADOR
+- **Estado de la plantilla:** PLANTILLA APROBADA PARA USO
+- **Estado de cada registro:** BORRADOR hasta su aprobación formal
 - **Tipo:** aprobación / rechazo / aprobación condicionada / suspensión / revocación
 - **Documento o decisión:** ruta, título e ID
 - **Versión exacta:** versión y commit SHA o referencia inmutable
