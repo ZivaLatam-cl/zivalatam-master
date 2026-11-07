@@ -164,4 +164,4 @@ Cada control requiere definición, responsable, implementación, prueba, evidenc
 
 ## 18. Revisión y aprobación
 
-Esta política está APROBADA para el gobierno documental interno dentro del alcance indicado. Las materias jurídicas, regulatorias, privacidad, ciberseguridad y retención legal requieren revisión profesional cuando corresponda. Las materias jurídicas, regulatorias, privacidad, ciberseguridad y retención legal requieren revisión profesional cuando corresponda. Revisar ante cambios materiales, incidentes relevantes o cambios de jurisdicción, sistemas y riesgos.
+Esta política está APROBADA para el gobierno documental interno dentro del alcance indicado. Las materias jurídicas, regulatorias, privacidad, ciberseguridad y retención legal requieren revisión profesional cuando corresponda. Revisar ante cambios materiales, incidentes relevantes o cambios de jurisdicción, sistemas y riesgos.
