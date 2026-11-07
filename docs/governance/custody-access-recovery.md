@@ -1,6 +1,6 @@
 # Procedimiento de custodia, acceso, respaldo y recuperación
 
-> **Estado:** EN DESARROLLO — procedimiento propuesto.  
+> **Estado:** APROBADO — procedimiento institucional.  
 > **Documento relacionado:** Política de integridad, conservación y respaldo documental.  
 > **Versión:** 0.2.0.
 
