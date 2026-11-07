@@ -10,7 +10,7 @@ No todo comentario o tarea requiere un ADR. Las decisiones operativas menores pu
 
 ## Convención
 
-Nombre: `ADR-NNNN-titulo-breve.md`, con numeración secuencial y sin reutilizar números.
+Identificador: `ZIVA-ADR-NNN`, con numeración secuencial y sin reutilizar números. Nombre de archivo recomendado: `ZIVA-ADR-NNN-titulo-breve.md`.
 
 Estados permitidos: PROPUESTO, APROBADO, RECHAZADO, SUPERADO.
 
