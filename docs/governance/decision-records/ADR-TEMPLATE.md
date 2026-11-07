@@ -1,50 +1,67 @@
 # ZIVA-ADR-NNN: Título de la decisión
 
 - **Estado:** PROPUESTO
-- **Fecha:** AAAA-MM-DD
-- **Responsable:** pendiente
-- **Aprobador:** pendiente
+- **Versión:** 0.1.0
+- **Fecha de creación / actualización:** AAAA-MM-DD
+- **Responsable:** persona o rol
+- **Autoridad aprobadora:** pendiente
 - **Issue relacionado:** URL o ID
 - **Investigación relacionada:** ID o no aplica
+- **Fuentes / evidencias:** IDs ZIVA-EVD-NNN
 - **Reemplaza / reemplazado por:** ninguno
+- **Estado de implementación:** NO INICIADA / EN CURSO / IMPLEMENTADA / VERIFICADA / NO APLICA
 
-## Contexto
+## 1. Contexto y problema
 
-¿Qué situación, necesidad o problema requiere una decisión? Incluir hechos, fuentes y restricciones.
+Describir la situación, necesidad, alcance, jurisdicciones y restricciones. Separar hechos verificados, información reportada, hipótesis y propuestas.
 
-## Decisión propuesta
+## 2. Decisión propuesta
 
-Describir una sola decisión de forma clara. Mientras no exista aprobación, mantener el estado PROPUESTO.
+Describir una sola decisión, de forma precisa y comprobable. Mientras no exista aprobación, mantener PROPUESTO o EN REVISIÓN.
 
-## Alternativas consideradas
+## 3. Alternativas consideradas
 
-| Alternativa | Ventajas | Desventajas / riesgos | Motivo de descarte o selección |
+| Alternativa | Ventajas | Desventajas / riesgos | Evidencia / motivo de selección o descarte |
 |---|---|---|---|
 | Opción A | | | |
 | Opción B | | | |
+| No actuar / posponer | | | |
 
-## Consecuencias
+No presentar alternativas no investigadas como si hubieran sido evaluadas.
 
-- Impactos positivos:
-- Costos y compromisos:
-- Riesgos:
+## 4. Criterios de evaluación
+
+Indicar criterios, ponderación si se usa, restricciones obligatorias y evidencia que sustenta la comparación.
+
+## 5. Consecuencias y riesgos
+
+- Beneficios esperados:
+- Costos iniciales y recurrentes:
+- Riesgos y controles:
 - Dependencias:
-- Reversibilidad:
+- Impacto en privacidad, seguridad y cumplimiento:
+- Reversibilidad y estrategia de salida:
+- Incertidumbres y asuntos pendientes:
 
-## Evidencias y fuentes
+## 6. Plan de implementación y verificación
 
-- [ZIVA-EVD-NNN] Referencia, fecha de consulta y afirmación respaldada.
+Indicar responsables, hitos, criterios de aceptación y evidencia requerida. No marcar IMPLEMENTADA o VERIFICADA antes de contar con pruebas objetivas.
 
-## Aprobación
+## 7. Evidencias y fuentes
+
+- [ZIVA-EVD-NNN] Referencia, versión, fecha de consulta, localizador y afirmación respaldada.
+
+## 8. Aprobación
 
 - **Decisión:** pendiente
-- **Autoridad:** pendiente
+- **Autoridad y alcance:** pendiente
 - **Persona/órgano:** pendiente
 - **Fecha:** pendiente
-- **Registro de aprobación:** enlace o ID
+- **APR relacionado:** ID o pendiente
+- **Condiciones:** ninguna / enumerar
 
-## Historial
+## 9. Historial
 
-| Fecha | Cambio | Commit / PR |
-|---|---|---|
-| AAAA-MM-DD | Creación del borrador | |
+| Fecha | Versión | Cambio | Commit / PR |
+|---|---|---|---|
+| AAAA-MM-DD | 0.1.0 | Creación del borrador | |
