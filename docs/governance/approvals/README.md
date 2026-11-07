@@ -17,8 +17,8 @@ Mantener evidencia explícita de quién aprobó qué documento, en qué versión
 
 ## Ubicación
 
-Crear un archivo por aprobación en el formato `APR-AAAA-NNNN-titulo.md`, usando la plantilla `APPROVAL-TEMPLATE.md`.
+Crear un archivo por aprobación con identificador `ZIVA-APR-NNN`, numeración secuencial y sin reutilización. Nombre de archivo recomendado: `ZIVA-APR-NNN-titulo.md`. Usar la plantilla `APPROVAL-TEMPLATE.md`.
 
 ## Autoridades
 
-La matriz de personas, cargos y facultades de aprobación está pendiente de definición institucional. Hasta entonces, ningún documento nuevo de gobierno se declarará aprobado por este procedimiento.
+La matriz de personas, cargos y facultades de aprobación se define en el documento de gobierno institucional correspondiente. La aprobación debe quedar vinculada a la autoridad y al alcance que correspondan.
