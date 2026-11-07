@@ -22,15 +22,19 @@ Cada salto debe ser navegable mediante identificadores y enlaces estables. Si un
 
 ## Identificadores
 
-Usar identificadores legibles y estables, por ejemplo:
+Usar los identificadores oficiales definidos en el documento principal de gobierno:
 
-- Investigación: `ZIVA-RES-001`
-- Fuente: `ZIVA-SRC-001`
-- Decisión: `ADR-0001`
+- Investigación: `ZIVA-INV-001`
+- Fuente o evidencia: `ZIVA-EVD-001`
+- Decisión: `ZIVA-ADR-001`
+- Aprobación: `ZIVA-APR-001`
+- Política: `ZIVA-POL-001`
+- Procedimiento: `ZIVA-PRO-001`
+- Revisión profesional: `ZIVA-REV-001`
 - Issue: número nativo de GitHub más URL.
 - Pull Request: número nativo de GitHub más URL.
 
-No reutilizar identificadores. Si un registro se retira, conservarlo como superado o archivado.
+Los ejemplos ilustran el formato; los números reales se asignarán secuencialmente en el registro correspondiente. No reutilizar identificadores. Si un registro se retira, conservarlo como superado o archivado.
 
 ## Metadatos mínimos de una investigación
 
@@ -46,9 +50,9 @@ No reutilizar identificadores. Si un registro se retira, conservarlo como supera
 - Issues, PRs y commits relacionados.
 - Aprobación y versión vigente, si existen.
 
-## Registro de fuentes
+## Registro de fuentes y evidencias
 
-Cada fuente debe incluir ID, autor o entidad, título, URL/ubicación, fecha de publicación (si consta), fecha de consulta, tipo, jurisdicción/ámbito, afirmación que respalda, fragmento o localizador verificable, evaluación de confiabilidad y estado de verificación.
+Cada fuente o evidencia debe incluir ID, autor o entidad, título, URL/ubicación, fecha de publicación (si consta), fecha de consulta, tipo, jurisdicción/ámbito, afirmación que respalda, fragmento o localizador verificable, evaluación de confiabilidad y estado de verificación.
 
 Conservar el documento original o una referencia estable cuando las licencias, privacidad y seguridad lo permitan. No copiar material protegido de forma incompatible con sus condiciones. Registrar hash criptográfico para originales cuando se implemente el procedimiento de conservación.
 
