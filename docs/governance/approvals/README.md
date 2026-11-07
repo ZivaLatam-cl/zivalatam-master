@@ -1,6 +1,6 @@
 # Registro de aprobaciones
 
-> **Estado:** EN DESARROLLO — procedimiento propuesto.
+> **Estado:** APROBADO — procedimiento de registro institucional. Las plantillas asociadas están aprobadas para uso.
 
 ## Propósito
 
