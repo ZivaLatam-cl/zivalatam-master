@@ -1,4 +1,4 @@
-# ADR-NNNN: Título de la decisión
+# ZIVA-ADR-NNN: Título de la decisión
 
 - **Estado:** PROPUESTO
 - **Fecha:** AAAA-MM-DD
@@ -33,7 +33,7 @@ Describir una sola decisión de forma clara. Mientras no exista aprobación, man
 
 ## Evidencias y fuentes
 
-- [SRC-XXXX] Referencia, fecha de consulta y afirmación respaldada.
+- [ZIVA-EVD-NNN] Referencia, fecha de consulta y afirmación respaldada.
 
 ## Aprobación
 
