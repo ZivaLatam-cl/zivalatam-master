@@ -17,6 +17,7 @@
 - Investigación relacionada:
 - ADR relacionado:
 - Fuentes / evidencias:
+- Documentos afectados:
 
 ## Resumen de cambios
 
@@ -29,16 +30,19 @@
 - [ ] Estado documental correcto.
 - [ ] No se incorporaron secretos ni datos innecesarios.
 - [ ] Documentos relacionados actualizados.
+- [ ] Cambios y limitaciones descritos con precisión.
 
 ## Impacto y riesgos
 
-Indicar impactos, dependencias, limitaciones y riesgos conocidos.
+Indicar impactos, dependencias, limitaciones, riesgos residuales y acciones pendientes.
 
 ## Revisión y aprobación
 
-- Revisor(es):
+- Revisión técnica/documental:
+- Revisión profesional requerida / no requerida / por determinar:
 - Aprobador institucional, si corresponde:
+- Registro APR:
 - ¿Requiere aprobación institucional formal? Sí / No / Por determinar.
 - Condiciones para integrar:
 
-> Abrir un Pull Request o recibir una aprobación técnica no convierte por sí mismo el contenido en política institucional aprobada. No integrar cambios que requieran aprobación formal hasta que esta quede registrada.
+> La apertura del Pull Request, una revisión técnica o un merge no equivalen por sí solos a aprobación institucional, revisión profesional ni verificación de controles. No integrar contenido que requiera aprobación formal hasta que esta quede registrada.
