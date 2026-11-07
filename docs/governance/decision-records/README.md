@@ -1,6 +1,6 @@
 # Registro de decisiones
 
-> **Estado:** EN DESARROLLO — procedimiento propuesto.
+> **Estado:** APROBADO — procedimiento institucional para registrar decisiones.
 
 ## Qué registrar
 
@@ -28,4 +28,4 @@ Las decisiones reemplazadas no se eliminan: se marcan SUPERADAS y enlazan al ADR
 
 ## Índice inicial
 
-No existen ADR institucionales aprobados en este expediente inicial. El primer ADR se creará cuando exista una decisión concreta que registrar.
+No se aprueba mediante este documento ninguna decisión de arquitectura o producto. Cada ADR futuro requerirá su propia aprobación y registro APR.
