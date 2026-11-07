@@ -1,6 +1,6 @@
 # Registros operativos de integridad y conservación
 
-> **Estado:** EN DESARROLLO — plantillas propuestas; no son registros de controles ya ejecutados.  
+> **Estado:** PLANTILLAS APROBADAS PARA USO — no son registros de controles ya ejecutados.  
 > **Uso:** crear un registro por evento o activo relevante. No incluir contraseñas, tokens, claves privadas ni datos personales innecesarios.
 
 ## Reglas generales
