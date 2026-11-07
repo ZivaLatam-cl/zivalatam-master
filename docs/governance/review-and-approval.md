@@ -1,12 +1,12 @@
 # Revisión y aprobación documental
 
-> **Estado:** EN DESARROLLO — propuesta pendiente de aprobación institucional.
+> **Estado:** APROBADO — procedimiento institucional.
 
 ## Objetivo
 
 Evitar que la creación técnica de un archivo, la revisión de contenido, la aprobación institucional y la integración en Git se confundan entre sí.
 
-## Flujo propuesto
+## Flujo institucional
 
 1. **Preparación:** identificar objetivo, alcance, autor/responsable, clasificación y documentos afectados.
 2. **Trabajo aislado:** crear una rama desde la base acordada; no desarrollar directamente sobre `main`.
