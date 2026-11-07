@@ -2,21 +2,35 @@
 
 > **Estado:** EN DESARROLLO — propuesta pendiente de aprobación institucional.  
 > **Ámbito:** repositorio maestro `ZivaLatam-cl/zivalatam-master`.  
-> **Versión:** 0.1.0 (borrador inicial).
+> **Versión:** 0.2.0 — revisión de consistencia documental.
 
-## Propósito
+## Propósito y alcance
 
-Establecer una forma única, verificable y reproducible de crear, revisar, aprobar y conservar documentación institucional, investigaciones y decisiones de ZivaLatam.
+Establecer una forma única, verificable y reproducible de crear, investigar, revisar, aprobar, publicar y conservar documentación institucional de ZivaLatam. Este marco regula el expediente documental; no constituye por sí mismo una entidad jurídica, licencia, certificación, sistema de control implementado ni prueba de operación comercial.
+
+El repositorio maestro es el registro oficial de los documentos que hayan sido incorporados conforme al procedimiento y aprobados cuando corresponda. La existencia de un archivo en una rama o Pull Request no lo convierte en política vigente.
 
 ## Principios
 
-1. **Una fuente oficial:** este repositorio es el registro documental maestro. Notion, correo y otros servicios pueden facilitar el trabajo, pero no sustituyen el registro aprobado aquí.
+1. **Fuente oficial controlada:** `main` contiene la versión institucional publicada. Ramas y Pull Requests son espacios de trabajo y revisión, no fuentes vigentes.
 2. **Evidencia antes que afirmaciones:** distinguir hechos verificados, información reportada, hipótesis y propuestas.
-3. **Trazabilidad de extremo a extremo:** cada conclusión relevante debe poder vincularse con sus fuentes, análisis, responsable, revisión y decisión.
-4. **Aprobación explícita:** un documento no se considera aprobado por haber sido redactado, subido o comprometido.
-5. **Historial preservado:** los cambios se realizan mediante commits y Pull Requests; no se reescribe el historial publicado salvo procedimiento excepcional documentado.
-6. **Mínimo privilegio:** cada colaborador recibe solo los permisos necesarios.
-7. **Protección de información:** no incorporar contraseñas, tokens, claves privadas, datos personales innecesarios ni secretos comerciales sensibles sin controles adecuados.
+3. **Trazabilidad de extremo a extremo:** vincular conclusiones con fuentes, análisis, responsable, revisión, decisión y versión.
+4. **Aprobación explícita:** no inferir aprobación por redacción, commit, publicación, comentario, aprobación técnica o merge.
+5. **Historial preservado:** realizar cambios mediante ramas y Pull Requests; no reescribir historial publicado salvo procedimiento excepcional autorizado y documentado.
+6. **Mínimo privilegio:** conceder únicamente permisos necesarios, con revisión y revocación cuando cambien las funciones.
+7. **Protección de información:** no incorporar contraseñas, tokens, claves privadas, datos personales innecesarios ni secretos comerciales sin controles adecuados.
+8. **Transparencia de estado:** diferenciar propuesta, aprobación interna, implementación y verificación con evidencia.
+9. **Revisión competente:** materias jurídicas, regulatorias, privacidad, seguridad y otras especialidades requieren profesionales competentes cuando el riesgo o la ley lo exijan.
+
+## Fuente documental y ramas
+
+- `main`: registro institucional publicado, sujeto a las aprobaciones aplicables.
+- Rama de trabajo: espacio aislado para preparar cambios.
+- Pull Request: expediente de propuesta, discusión, revisión y autorización de integración.
+- Commit: unidad versionada de cambio; no representa por sí solo una aprobación.
+- Merge: integración técnica; no sustituye la aprobación institucional ni revisiones profesionales pendientes.
+
+Un documento puede estar técnicamente integrado y seguir marcado como borrador si la aprobación institucional no se ha registrado. La vigencia debe constar en sus metadatos y en el registro de aprobaciones.
 
 ## Estructura documental inicial
 
@@ -29,6 +43,9 @@ docs/
     commit-conventions.md
     review-and-approval.md
     traceability-model.md
+    integrity-retention.md
+    custody-access-recovery.md
+    integrity-registers.md
     decision-records/
       README.md
       ADR-TEMPLATE.md
@@ -37,11 +54,11 @@ docs/
       APPROVAL-TEMPLATE.md
 ```
 
-La estructura podrá ampliarse mediante Pull Request. Las investigaciones específicas deberán organizarse bajo un directorio propio acordado, con identificador único y expediente de fuentes, metodología, hallazgos y limitaciones.
+La estructura podrá ampliarse mediante Pull Request. Las investigaciones específicas deberán organizarse en expedientes propios con identificador único, alcance, metodología, fuentes, hallazgos, limitaciones y decisiones relacionadas.
 
 ## Sistema de identificación documental
 
-Cada registro tendrá un identificador único, permanente y no reutilizable, con la siguiente nomenclatura:
+Cada registro tendrá un identificador único, permanente y no reutilizable:
 
 | Tipo documental | Prefijo | Ejemplo |
 |---|---|---|
@@ -53,29 +70,34 @@ Cada registro tendrá un identificador único, permanente y no reutilizable, con
 | Procedimientos | `PRO` | `ZIVA-PRO-001` |
 | Revisiones profesionales | `REV` | `ZIVA-REV-001` |
 
-La numeración será secuencial dentro de cada categoría. Los identificadores retirados, superados o archivados no se asignarán nuevamente. El identificador deberá mantenerse estable durante toda la vida del registro, aunque cambie su título o versión.
+La numeración será secuencial dentro de cada categoría. Los identificadores retirados, superados o archivados no se asignarán nuevamente. Los ejemplos no reservan ni asignan números reales. El ID permanece estable aunque cambie el título o la versión.
 
 ## Estados documentales
 
 | Estado | Significado |
 |---|---|
-| BORRADOR | Contenido en elaboración, no revisado |
+| BORRADOR | Contenido en elaboración |
 | EN REVISIÓN | Presentado formalmente para revisión |
 | APROBADO | Aprobación explícita registrada por autoridad designada |
 | RECHAZADO | Revisado y no aprobado; conservar motivo |
 | SUPERADO | Reemplazado por una versión o decisión posterior |
 | ARCHIVADO | Conservado sin vigencia operativa |
 
-Los estados **APROBADO** y **VERIFICADO** no son intercambiables. Una afirmación puede estar verificada sin que la política o documento que la contiene esté aprobado.
+Los estados **APROBADO**, **IMPLEMENTADO** y **VERIFICADO** no son intercambiables. La aprobación autoriza un contenido dentro de un alcance; la implementación acredita que se ejecutó; la verificación exige evidencia objetiva del resultado.
 
 ## Documentos relacionados
 
 - [Convenciones de commits](commit-conventions.md)
 - [Revisión y aprobación](review-and-approval.md)
 - [Modelo de trazabilidad](traceability-model.md)
+- [Política de integridad, conservación y respaldo](integrity-retention.md)
+- [Procedimiento de custodia, acceso, respaldo y recuperación](custody-access-recovery.md)
+- [Registros operativos de integridad y conservación](integrity-registers.md)
 - [Registro de decisiones](decision-records/README.md)
 - [Registro de aprobaciones](approvals/README.md)
 
-## Control de cambios
+## Control de cambios y límites actuales
 
-Toda modificación de estas reglas debe pasar por Pull Request y quedar reflejada en el historial de Git. Este documento permanece como propuesta hasta que exista aprobación institucional registrada.
+Toda modificación de estas reglas debe pasar por Pull Request. La protección de `main`, revisiones obligatorias y controles automáticos solo se considerarán activos cuando su configuración haya sido comprobada en GitHub.
+
+Este marco permanece EN DESARROLLO hasta que exista aprobación institucional registrada. Su publicación no demuestra que los controles descritos estén implementados ni que ZivaLatam tenga una estructura societaria o regulatoria determinada.
