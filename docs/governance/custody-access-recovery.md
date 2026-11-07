@@ -1,29 +1,33 @@
 # Procedimiento de custodia, acceso, respaldo y recuperación
 
-> **Estado:** EN DESARROLLO — documento complementario propuesto.  
+> **Estado:** EN DESARROLLO — procedimiento propuesto.  
 > **Documento relacionado:** Política de integridad, conservación y respaldo documental.  
-> **Versión:** 0.1.0.
+> **Versión:** 0.2.0.
 
-## 1. Propósito
+## 1. Propósito y reglas de uso
 
-Convertir los principios de la política en pasos repetibles y evidenciables. Este procedimiento no declara controles técnicos activos: cada actividad debe marcarse como PENDIENTE hasta su implementación y prueba.
+Convertir la política en pasos repetibles y evidenciables. Este procedimiento no declara controles técnicos activos. Cada actividad permanece PENDIENTE hasta su implementación y prueba.
 
-## 2. Recepción e incorporación de una fuente o evidencia
+Antes de incorporar información, determinar si su obtención, conservación y tratamiento son lícitos, necesarios y compatibles con derechos, licencias, contratos y restricciones. Ante duda material, detener la incorporación y solicitar evaluación competente.
 
-1. Confirmar que la obtención y conservación son lícitas y compatibles con derechos, licencias y restricciones.
-2. Asignar identificador documental único o vincularlo con uno existente.
-3. Registrar procedencia, remitente/autor, fecha de publicación conocida, fecha y hora de recepción/consulta, responsable de incorporación y método.
-4. Clasificar la información; ante duda, aplicar provisionalmente la categoría más protectora.
-5. Conservar el original sin alteraciones cuando sea posible y crear una copia de trabajo.
-6. Registrar ubicación oficial, custodio, relaciones con investigaciones o decisiones y limitaciones conocidas.
-7. Calcular hash SHA-256 cuando el control técnico esté implementado y sea aplicable. Registrar resultado y herramienta.
-8. Incorporar el registro al inventario maestro sin copiar secretos ni datos sensibles innecesarios.
+## 2. Recepción e incorporación
 
-## 3. Registro de cadena de custodia
+1. Asignar ID único o vincular con uno existente.
+2. Registrar procedencia, autor/remitente, entidad emisora, fechas conocidas, zona horaria, responsable y método de obtención.
+3. Clasificar la información; ante duda, aplicar provisionalmente la categoría más protectora.
+4. Conservar el original sin alteraciones cuando sea legal y posible; crear copia de trabajo.
+5. Registrar ubicación oficial, custodio, relaciones y limitaciones.
+6. Calcular SHA-256 solo cuando el control esté implementado y sea aplicable; registrar herramienta, versión, fecha y resultado.
+7. Incorporar metadatos al inventario sin copiar secretos ni datos sensibles innecesarios.
+8. Si no se puede conservar el original, registrar motivo y referencia verificable.
 
-Crear un evento por cada recepción, transferencia, duplicación, conversión, anotación, análisis, verificación, cambio de ubicación, restauración o eliminación relevante. Cada evento incluirá: ID de evento, ID del objeto, fecha/hora y zona horaria, actor, acción, motivo, origen, destino, autorización, herramienta/método, hash antes/después cuando aplique, resultado y enlace a incidencia o expediente.
+## 3. Cadena de custodia
 
-No borrar ni editar silenciosamente eventos ya registrados. Rectificar mediante un evento adicional que identifique el registro rectificado y explique el motivo.
+Crear un evento por recepción, transferencia, duplicación, conversión, extracción, redacción, anotación, análisis, verificación, cambio de ubicación, restauración, archivo o eliminación relevante.
+
+Cada evento debe incluir ID de evento y objeto, fecha/hora y zona horaria, actor, acción, motivo, origen/destino, autorización, herramienta/método, hash antes/después cuando aplique, resultado y vínculo a incidencia o expediente.
+
+No borrar ni editar silenciosamente eventos previos. Rectificar mediante un nuevo evento que identifique el registro afectado y explique el motivo. El registro interno no debe presentarse como certificación o cadena judicial sin evaluación jurídica aplicable.
 
 ## 4. Gestión de accesos
 
@@ -32,63 +36,73 @@ No borrar ni editar silenciosamente eventos ya registrados. Rectificar mediante 
 - Definir permisos mínimos, duración y fecha de revisión.
 - Obtener autorización del responsable competente.
 - Usar cuentas individuales y autenticación reforzada cuando esté disponible.
-- Registrar fecha efectiva y evidencia de concesión.
+- Registrar concesión y evidencia.
 
 ### Modificación
-- Revisar permisos al cambiar funciones, proyectos, contrato o necesidad.
+- Revisar permisos ante cambios de función, proyecto, contrato o necesidad.
 - Retirar permisos que dejaron de ser necesarios.
-- Registrar quién solicitó, autorizó y ejecutó el cambio.
+- Registrar solicitante, autorizador, ejecutor y fecha.
 
 ### Baja
-- Revocar accesos oportunamente según riesgo y obligaciones contractuales.
-- Recuperar activos y transferir custodia de documentos.
-- Rotar secretos compartidos que pudieran haber sido conocidos.
-- Confirmar devolución o eliminación de copias bajo control del tercero cuando corresponda.
-- Preservar registros sujetos a retención o conservación extraordinaria.
-- Registrar fecha, alcance, ejecutor y verificación de cierre.
+- Revocar accesos oportunamente según riesgo y obligaciones.
+- Recuperar activos y transferir custodia.
+- Rotar secretos compartidos potencialmente expuestos.
+- Confirmar devolución/eliminación de copias de terceros cuando corresponda.
+- Preservar registros sujetos a retención o legal hold.
+- Registrar alcance, ejecutor, fecha y verificación de cierre.
+
+### Cuentas bajo un mismo titular
+La cuenta institucional principal declarada es `ZivaLatam-Oficial`; la cuenta secundaria declarada bajo control del mismo titular es `lusdrey523`. Esta declaración no es una verificación independiente de GitHub. La cuenta secundaria podrá ejecutar operaciones previamente autorizadas si los permisos y reglas lo permiten, pero no representa una persona revisora independiente ni podrá utilizarse para simular aprobación ajena o eludir la autoaprobación. La aprobación institucional debe registrarse separadamente mediante `APR`. No compartir contraseñas, MFA, tokens ni claves.
 
 ## 5. Respaldo y restauración
 
-Antes de seleccionar una solución, documentar: sistemas y datos incluidos, criticidad, frecuencia, retención, cifrado, ubicación separada, responsables, costes, dependencias, RPO/RTO propuestos y riesgos residuales.
+Antes de seleccionar solución, documentar sistemas y datos incluidos, criticidad, frecuencia, retención, cifrado, separación, responsables, costes, dependencias, RPO/RTO propuestos y riesgos residuales. No contratar ni activar servicios sin aprobación presupuestaria.
 
-Cada ejecución de respaldo debe registrar fecha/hora, alcance, sistema origen, destino, resultado, errores, responsable y referencia al manifiesto o reporte. Las copias deben protegerse contra modificación y borrado no autorizado.
+Cada respaldo debe registrar fecha/hora, alcance, origen, destino, resultado, errores, responsable y reporte/manifiesto. Proteger copias contra modificación y borrado no autorizado.
 
 Una prueba de restauración debe:
-1. Identificar el respaldo y alcance a restaurar.
-2. Usar un entorno controlado que no sobrescriba producción.
+1. Identificar respaldo y alcance.
+2. Usar entorno controlado que no sobrescriba producción.
 3. Registrar inicio, fin, operador y versión de herramientas.
-4. Comprobar integridad mediante hashes u otros controles adecuados.
+4. Comprobar integridad con hashes u otros controles adecuados.
 5. Validar legibilidad, estructura, permisos y dependencias.
-6. Comparar resultado con RPO/RTO definidos cuando existan.
-7. Documentar fallos, acciones correctivas y aprobación de cierre.
+6. Comparar con RPO/RTO definidos, si existen.
+7. Documentar fallos, correcciones y autorización de cierre.
 
-No declarar recuperación exitosa si solo se verificó que existe un archivo de respaldo.
+La existencia de un archivo no demuestra que sea restaurable. No declarar recuperación exitosa sin prueba documentada.
 
 ## 6. Conservación extraordinaria (legal hold)
 
-Al recibir instrucción de autoridad competente, asesoría jurídica o decisión autorizada de preservar información por investigación, controversia o litigio:
+Ante requerimiento de autoridad competente, instrucción jurídica o decisión autorizada de preservar información por investigación, controversia o litigio:
 - Abrir registro de conservación extraordinaria.
 - Delimitar personas, sistemas, fechas, categorías y documentos.
-- Notificar a custodios pertinentes y solicitar confirmación.
-- Suspender procesos de eliminación aplicables.
-- Preservar evidencia de cumplimiento y excepciones.
-- Revisar alcance periódicamente con asesoría competente.
-- Levantar la suspensión únicamente con autorización documentada y evaluación de obligaciones vigentes.
+- Identificar quién instruye y la base/alcance de la instrucción.
+- Notificar a custodios y solicitar confirmación.
+- Suspender los procesos de eliminación comprendidos.
+- Registrar excepciones o imposibilidades y escalar de inmediato.
+- Revisar alcance con asesoría competente.
+- Levantar la suspensión solo mediante autorización documentada y evaluación de obligaciones vigentes.
+
+No interpretar una solicitud informal o ambigua como instrucción legal concluyente; escalar para determinar alcance y competencia.
 
 ## 7. Incidentes
 
-Registrar cada incidente con identificador, detección, reportante, fecha/hora, sistemas y registros afectados, clasificación, impacto conocido, medidas de contención, evidencia preservada, escalamiento, evaluaciones profesionales, comunicaciones autorizadas, recuperación, causa confirmada (si se determina), acciones correctivas y cierre.
+Registrar ID, detección, reportante, fecha/hora, sistemas y registros afectados, clasificación, impacto conocido, contención, evidencia preservada, escalamiento, evaluaciones profesionales, comunicaciones autorizadas, recuperación, causa confirmada (si se determina), acciones correctivas y cierre.
 
-La comunicación externa debe estar autorizada y basada en hechos confirmados. No publicar datos personales, credenciales ni detalles técnicos sensibles.
+La comunicación externa debe estar autorizada y basarse en hechos confirmados. No publicar datos personales, credenciales ni detalles técnicos sensibles. Evaluar con profesionales las obligaciones y plazos de notificación.
 
 ## 8. Excepciones
 
-Registrar requisito, motivo, riesgo, control compensatorio, responsable, autorizador, revisión profesional, vencimiento y cierre. Si la excepción implica obligación legal o impedimento profesional, no se concede: se detiene la actividad afectada y se solicita asesoría competente.
+Registrar requisito, motivo, riesgo, control compensatorio, responsable, autorizador, revisión profesional cuando corresponda, vencimiento y cierre. Si implica incumplir una obligación legal, regulatoria o contractual o un impedimento profesional, no se concede: detener la actividad y solicitar asesoría competente.
 
-## 9. Evidencias mínimas de ejecución
+## 9. Evidencia de ejecución
 
-La evidencia puede incluir logs exportados, reportes de respaldo, resultados de restauración, registros de permisos, manifiestos hash, actas de revisión y registros de incidentes. Debe conservarse con fecha, responsable, alcance y ubicación autorizada.
+La evidencia puede incluir logs exportados, reportes de respaldo, pruebas de restauración, registros de permisos, manifiestos hash, actas de revisión y registros de incidentes. Conservar fecha, responsable, alcance, resultado y ubicación autorizada. Evitar datos personales y secretos innecesarios.
 
-## 10. Estado de implementación
+## 10. Estados de implementación
 
-Cada actividad se etiqueta PENDIENTE, IMPLEMENTADA, EN PRUEBA o VERIFICADA. VERIFICADA requiere evidencia objetiva, fecha, alcance, responsable y resultado. Este procedimiento no demuestra por sí mismo que las actividades estén implementadas.
+Cada control o actividad se etiqueta PENDIENTE, IMPLEMENTADO, EN PRUEBA o VERIFICADO. VERIFICADO exige evidencia objetiva, fecha, alcance, responsable, resultado y revisión. Este procedimiento no demuestra por sí mismo que las actividades estén implementadas.
+
+## 11. Revisión
+
+Revisar ante cambios de sistemas, responsables, jurisdicciones, proveedores, riesgos o después de incidentes. Registrar versión, fecha, responsable y cambios.
