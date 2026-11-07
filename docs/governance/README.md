@@ -29,6 +29,7 @@ docs/
     commit-conventions.md
     review-and-approval.md
     traceability-model.md
+    integrity-retention.md
     decision-records/
       README.md
       ADR-TEMPLATE.md
@@ -73,6 +74,7 @@ Los estados **APROBADO** y **VERIFICADO** no son intercambiables. Una afirmació
 - [Convenciones de commits](commit-conventions.md)
 - [Revisión y aprobación](review-and-approval.md)
 - [Modelo de trazabilidad](traceability-model.md)
+- [Política de integridad, conservación y respaldo](integrity-retention.md)
 - [Registro de decisiones](decision-records/README.md)
 - [Registro de aprobaciones](approvals/README.md)
 
