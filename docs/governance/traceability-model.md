@@ -1,6 +1,6 @@
 # Modelo mínimo de trazabilidad documental
 
-> **Estado:** EN DESARROLLO — propuesta pendiente de aprobación.
+> **Estado:** APROBADO — modelo institucional de trazabilidad.
 
 ## Cadena de trazabilidad
 
@@ -84,4 +84,4 @@ Un hash permite comparar bytes de dos objetos; por sí solo no acredita autoría
 
 ## Límites actuales
 
-Este modelo es una propuesta procedimental. No acredita que estén implementados captura automática, sellado de tiempo confiable, firma electrónica, hash automatizado, respaldo externo, archivo inmutable ni un sistema de gestión de evidencias. Su implementación deberá tener responsable, alcance, pruebas y evidencia fechada.
+Este modelo establece el procedimiento institucional de trazabilidad. No acredita que estén implementados captura automática, sellado de tiempo confiable, firma electrónica, hash automatizado, respaldo externo, archivo inmutable ni un sistema de gestión de evidencias. Su implementación deberá tener responsable, alcance, pruebas y evidencia fechada.
