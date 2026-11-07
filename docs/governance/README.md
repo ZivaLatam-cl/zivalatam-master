@@ -2,7 +2,7 @@
 
 > **Estado:** EN DESARROLLO — propuesta pendiente de aprobación institucional.  
 > **Ámbito:** repositorio maestro `ZivaLatam-cl/zivalatam-master`.  
-> **Versión:** 0.2.0 — revisión de consistencia documental.
+> **Versión:** 0.2.1 — base de gobierno documental.
 
 ## Propósito y alcance
 
@@ -43,9 +43,6 @@ docs/
     commit-conventions.md
     review-and-approval.md
     traceability-model.md
-    integrity-retention.md
-    custody-access-recovery.md
-    integrity-registers.md
     decision-records/
       README.md
       ADR-TEMPLATE.md
@@ -90,9 +87,6 @@ Los estados **APROBADO**, **IMPLEMENTADO** y **VERIFICADO** no son intercambiabl
 - [Convenciones de commits](commit-conventions.md)
 - [Revisión y aprobación](review-and-approval.md)
 - [Modelo de trazabilidad](traceability-model.md)
-- [Política de integridad, conservación y respaldo](integrity-retention.md)
-- [Procedimiento de custodia, acceso, respaldo y recuperación](custody-access-recovery.md)
-- [Registros operativos de integridad y conservación](integrity-registers.md)
 - [Registro de decisiones](decision-records/README.md)
 - [Registro de aprobaciones](approvals/README.md)
 
