@@ -43,7 +43,8 @@ zivalatam-master/
 │           ├── README.md
 │           ├── APPROVAL-TEMPLATE.md
 │           ├── ZIVA-APR-001-governance-framework.md
-│           └── ZIVA-APR-002-integrity-retention.md
+│           ├── ZIVA-APR-002-integrity-retention.md
+│           └── ZIVA-APR-003-repository-readme.md
 └── README.md
 ```
 
