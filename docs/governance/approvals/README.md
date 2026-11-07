@@ -33,3 +33,8 @@ Adjuntar o enlazar evidencia de autorización explícita y registrar la versión
 ## Estados y mantenimiento
 
 Distinguir BORRADOR, APROBADO, RECHAZADO, CONDICIONADO, SUSPENDIDO y REVOCADO. Una aprobación condicionada solo habilita aquello que esté expresamente dentro de su alcance y después de cumplir las condiciones indicadas. Revisar el índice cuando se incorpore, reemplace o revoque un registro.
+
+## Índice de aprobaciones registradas
+
+- [ZIVA-APR-001 — Gobierno documental](ZIVA-APR-001-governance-framework.md)
+- [ZIVA-APR-002 — Integridad, conservación y respaldo](ZIVA-APR-002-integrity-retention.md)
