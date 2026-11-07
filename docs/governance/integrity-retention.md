@@ -1,6 +1,6 @@
 # Política de integridad, conservación y respaldo documental
 
-> **Estado:** EN DESARROLLO — propuesta para revisión y aprobación interna.  
+> **Estado:** APROBADO — política institucional interna.  
 > **Ámbito:** documentación, investigaciones, fuentes, evidencias, decisiones, aprobaciones, revisiones y registros bajo control de ZivaLatam.  
 > **Versión:** 0.3.0 — revisión de controles y límites.
 
@@ -164,4 +164,4 @@ Cada control requiere definición, responsable, implementación, prueba, evidenc
 
 ## 18. Revisión y aprobación
 
-Esta política permanece EN DESARROLLO hasta aprobación expresa y registro de la versión exacta. Las materias jurídicas, regulatorias, privacidad, ciberseguridad y retención legal requieren revisión profesional cuando corresponda. Revisar ante cambios materiales, incidentes relevantes o cambios de jurisdicción, sistemas y riesgos.
+Esta política está APROBADA para el gobierno documental interno dentro del alcance indicado. Las materias jurídicas, regulatorias, privacidad, ciberseguridad y retención legal requieren revisión profesional cuando corresponda. Las materias jurídicas, regulatorias, privacidad, ciberseguridad y retención legal requieren revisión profesional cuando corresponda. Revisar ante cambios materiales, incidentes relevantes o cambios de jurisdicción, sistemas y riesgos.
