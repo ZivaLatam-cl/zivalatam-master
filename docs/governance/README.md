@@ -39,6 +39,22 @@ docs/
 
 La estructura podrá ampliarse mediante Pull Request. Las investigaciones específicas deberán organizarse bajo un directorio propio acordado, con identificador único y expediente de fuentes, metodología, hallazgos y limitaciones.
 
+## Sistema de identificación documental
+
+Cada registro tendrá un identificador único, permanente y no reutilizable, con la siguiente nomenclatura:
+
+| Tipo documental | Prefijo | Ejemplo |
+|---|---|---|
+| Políticas institucionales | `POL` | `ZIVA-POL-001` |
+| Investigaciones | `INV` | `ZIVA-INV-001` |
+| Fuentes y evidencias | `EVD` | `ZIVA-EVD-001` |
+| Decisiones institucionales | `ADR` | `ZIVA-ADR-001` |
+| Aprobaciones | `APR` | `ZIVA-APR-001` |
+| Procedimientos | `PRO` | `ZIVA-PRO-001` |
+| Revisiones profesionales | `REV` | `ZIVA-REV-001` |
+
+La numeración será secuencial dentro de cada categoría. Los identificadores retirados, superados o archivados no se asignarán nuevamente. El identificador deberá mantenerse estable durante toda la vida del registro, aunque cambie su título o versión.
+
 ## Estados documentales
 
 | Estado | Significado |
