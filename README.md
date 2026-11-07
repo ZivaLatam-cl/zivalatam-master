@@ -100,6 +100,7 @@ La aprobación de una política o procedimiento no acredita que sus controles es
 - [Registros operativos de integridad y conservación](docs/governance/integrity-registers.md)
 - [Registro de decisiones](docs/governance/decision-records/README.md)
 - [Registro de aprobaciones](docs/governance/approvals/README.md)
+- [ZIVA-APR-003 — Aprobación del README principal](docs/governance/approvals/ZIVA-APR-003-repository-readme.md)
 
 ## 9. Límites institucionales
 
