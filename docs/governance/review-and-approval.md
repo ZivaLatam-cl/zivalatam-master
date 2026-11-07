@@ -63,3 +63,26 @@ Se recomienda configurar en GitHub protección de la rama `main` con:
 ## Evidencia de aprobación
 
 Toda aprobación institucional debe registrar, como mínimo, documento y versión, persona/órgano aprobador, rol o autoridad, fecha, decisión, alcance y condiciones. El registro de GitHub complementa el expediente; no reemplaza la identificación de la autoridad competente.
+
+
+## Control compensatorio temporal mientras exista un único titular
+
+Mientras ZivaLatam opere con una sola persona titular y responsable de las decisiones institucionales, se permite distinguir una cuenta institucional principal y una cuenta operativa secundaria, sin presentar esa distinción como separación de funciones entre personas.
+
+Según declaración expresa del titular del proyecto:
+
+- **Cuenta institucional principal y administradora del repositorio:** `ZivaLatam-Oficial`.
+- **Cuenta secundaria bajo propiedad y control del mismo titular:** `lusdrey523`.
+
+Esta relación se documenta como una declaración del titular; no constituye por sí sola una verificación independiente de identidad, titularidad o control realizada por GitHub.
+
+### Límites obligatorios
+
+1. Ambas cuentas se consideran controladas por la misma persona mientras no exista evidencia documentada de un cambio.
+2. El uso de `lusdrey523` para ejecutar un merge autorizado puede servir como separación operativa de credenciales o tareas, si los permisos y las reglas de GitHub lo permiten; no crea independencia funcional.
+3. Ninguna de las dos cuentas podrá utilizarse para simular una revisión independiente de la otra ni para eludir la restricción de autoaprobación de GitHub.
+4. La aprobación institucional corresponde al titular y debe quedar registrada por separado mediante un expediente `APR`, indicando persona responsable, decisión, alcance, fecha y versión.
+5. El merge se ejecutará únicamente después de la autorización institucional documentada y de cumplir los controles aplicables. El uso de una cuenta secundaria no sustituye dicha autorización.
+6. Al incorporarse colaboradores, deberá revisarse esta medida y establecerse una separación real de funciones, permisos y revisiones según los riesgos y responsabilidades.
+
+**Naturaleza del control:** compensatorio y temporal. No equivale a revisión independiente, doble control humano ni auditoría externa.
