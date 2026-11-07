@@ -75,6 +75,8 @@ Los estados **APROBADO** y **VERIFICADO** no son intercambiables. Una afirmació
 - [Revisión y aprobación](review-and-approval.md)
 - [Modelo de trazabilidad](traceability-model.md)
 - [Política de integridad, conservación y respaldo](integrity-retention.md)
+- [Procedimiento de custodia, acceso, respaldo y recuperación](custody-access-recovery.md)
+- [Registros operativos de integridad y conservación](integrity-registers.md)
 - [Registro de decisiones](decision-records/README.md)
 - [Registro de aprobaciones](approvals/README.md)
 
