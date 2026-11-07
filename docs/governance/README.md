@@ -1,6 +1,6 @@
 # Gobierno documental de ZivaLatam
 
-> **Estado:** APROBADO — aprobación institucional registrada en ZIVA-APR-001.  
+> **Estado:** APROBADO — aprobaciones institucionales registradas en ZIVA-APR-001 y ZIVA-APR-002.  
 > **Ámbito:** repositorio maestro `ZivaLatam-cl/zivalatam-master`.  
 > **Versión:** 0.2.0 — revisión de consistencia documental.
 
