@@ -1,6 +1,6 @@
 # Convenciones de commits
 
-> **Estado:** EN DESARROLLO — propuesta pendiente de aprobación.
+> **Estado:** APROBADO — convención institucional vigente desde su incorporación a `main`.
 
 ## Formato
 
