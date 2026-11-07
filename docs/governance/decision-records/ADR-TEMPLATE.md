@@ -1,6 +1,7 @@
 # ZIVA-ADR-NNN: Título de la decisión
 
-- **Estado:** PROPUESTO
+- **Estado de la plantilla:** PLANTILLA APROBADA PARA USO
+- **Estado de cada decisión:** PROPUESTO
 - **Versión:** 0.1.0
 - **Fecha de creación / actualización:** AAAA-MM-DD
 - **Responsable:** persona o rol
