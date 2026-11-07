@@ -9,65 +9,79 @@ Necesidad / pregunta
   -> Issue
   -> Investigación / expediente
   -> Fuente primaria o secundaria
-  -> Evidencia extraída
+  -> Evidencia localizada
   -> Análisis / hallazgo
   -> Decisión (ADR o registro equivalente)
   -> Pull Request
-  -> Revisión y aprobación
+  -> Revisión técnica y profesional, cuando corresponda
+  -> Aprobación institucional (APR)
   -> Commit / merge
   -> Versión publicada
+  -> Verificación de implementación, si aplica
 ```
 
-Cada salto debe ser navegable mediante identificadores y enlaces estables. Si un vínculo no existe, se debe indicar expresamente; no se debe inferir.
+Cada salto debe ser navegable mediante identificadores y enlaces estables. Si un vínculo no existe, debe indicarse expresamente; no se debe inferir ni reconstruir retrospectivamente sin evidencia.
 
 ## Identificadores
 
-Usar los identificadores oficiales definidos en el documento principal de gobierno:
+Usar los identificadores definidos en el documento principal:
 
-- Investigación: `ZIVA-INV-001`
-- Fuente o evidencia: `ZIVA-EVD-001`
-- Decisión: `ZIVA-ADR-001`
-- Aprobación: `ZIVA-APR-001`
-- Política: `ZIVA-POL-001`
-- Procedimiento: `ZIVA-PRO-001`
-- Revisión profesional: `ZIVA-REV-001`
-- Issue: número nativo de GitHub más URL.
-- Pull Request: número nativo de GitHub más URL.
+- Investigación: `ZIVA-INV-NNN`
+- Fuente o evidencia: `ZIVA-EVD-NNN`
+- Decisión: `ZIVA-ADR-NNN`
+- Aprobación: `ZIVA-APR-NNN`
+- Política: `ZIVA-POL-NNN`
+- Procedimiento: `ZIVA-PRO-NNN`
+- Revisión profesional: `ZIVA-REV-NNN`
+- Issue y Pull Request: número nativo de GitHub y URL.
 
-Los ejemplos ilustran el formato; los números reales se asignarán secuencialmente en el registro correspondiente. No reutilizar identificadores. Si un registro se retira, conservarlo como superado o archivado.
+Los números son secuenciales por categoría y se asignan al crear el registro, no al redactar ejemplos. No reutilizar identificadores. Los registros retirados permanecen como SUPERADOS o ARCHIVADOS.
 
 ## Metadatos mínimos de una investigación
 
-- ID y título.
-- Estado: BORRADOR, EN REVISIÓN, APROBADO, RECHAZADO, SUPERADO o ARCHIVADO.
-- Responsable y fecha de inicio/actualización.
-- Pregunta, alcance y exclusiones.
-- Método y criterios de selección.
-- Registro de fuentes.
-- Evidencias y hallazgos.
-- Limitaciones, incertidumbres y conflictos de interés, cuando correspondan.
-- Decisiones relacionadas.
-- Issues, PRs y commits relacionados.
-- Aprobación y versión vigente, si existen.
+- ID, título, versión y estado.
+- Responsable y fechas de creación/actualización.
+- Pregunta, objetivo, alcance, exclusiones y jurisdicciones.
+- Método, criterios de selección y fecha de corte.
+- Registro de fuentes y evidencia examinada.
+- Hallazgos separados de interpretación y recomendación.
+- Limitaciones, incertidumbres, supuestos y conflictos de interés pertinentes.
+- Decisiones, riesgos y dependencias relacionadas.
+- Issues, PRs, commits y documentos vinculados.
+- Revisión profesional y aprobación, si existen; no completar estos campos por inferencia.
 
-## Registro de fuentes y evidencias
+## Registro mínimo de fuentes y evidencias
 
-Cada fuente o evidencia debe incluir ID, autor o entidad, título, URL/ubicación, fecha de publicación (si consta), fecha de consulta, tipo, jurisdicción/ámbito, afirmación que respalda, fragmento o localizador verificable, evaluación de confiabilidad y estado de verificación.
+Cada fuente debe registrar, según corresponda:
 
-Conservar el documento original o una referencia estable cuando las licencias, privacidad y seguridad lo permitan. No copiar material protegido de forma incompatible con sus condiciones. Registrar hash criptográfico para originales cuando se implemente el procedimiento de conservación.
+- ID, autor o entidad emisora, título y tipo.
+- URL o ubicación, versión y jurisdicción/ámbito.
+- Fecha de publicación o actualización, si consta.
+- Fecha de consulta, recepción o captura, con zona horaria cuando sea relevante.
+- Afirmación concreta que respalda y localizador reproducible (página, sección, párrafo, tabla o identificador).
+- Extracto mínimo necesario o descripción fiel; respetar derechos, licencias y restricciones.
+- Evaluación de autoridad, actualidad, pertinencia y limitaciones.
+- Estado de verificación y responsable de la evaluación.
+- Relación con otras fuentes, discrepancias y evidencia contraria.
+
+No usar una fuente para respaldar afirmaciones que no contiene. Si una fuente secundaria resume una norma o estándar, preferir y buscar la fuente primaria para conclusiones relevantes. Registrar las fechas de consulta para datos susceptibles de cambio.
 
 ## Clasificación de afirmaciones
 
-- **VERIFICADO:** contrastado con evidencia identificable y suficiente para el alcance declarado.
-- **REPORTADO:** comunicado por una persona o entidad, aún no corroborado de forma independiente.
+- **VERIFICADO:** contrastado con evidencia identificable, suficiente y pertinente para el alcance y fecha declarados.
+- **REPORTADO:** comunicado por una persona o entidad, sin corroboración suficiente.
 - **HIPÓTESIS:** explicación o supuesto pendiente de prueba.
 - **PROPUESTO:** alternativa o recomendación no aprobada.
-- **APROBADO:** decisión formalmente autorizada; no significa necesariamente que todos sus hechos subyacentes estén verificados.
+- **APROBADO:** decisión formalmente autorizada; no implica que sus premisas estén verificadas ni que esté implementada.
 
-## Integridad y conservación
+La etiqueta VERIFICADO debe indicar qué se verificó, con qué evidencia, por quién, cuándo y dentro de qué límites. No extender una verificación más allá de su alcance.
 
-No editar silenciosamente evidencia histórica. Corregir mediante nueva versión o nota de rectificación. Restringir información confidencial; almacenar secretos fuera del repositorio. Los enlaces externos pueden cambiar o desaparecer, por lo que las investigaciones críticas deben conservar metadatos suficientes para recuperar y evaluar la fuente.
+## Integridad, conservación y correcciones
+
+No editar silenciosamente evidencia histórica. Corregir mediante nueva versión o nota de rectificación, preservando el vínculo con el contenido anterior. Distinguir fecha de publicación de una fuente, fecha de consulta y fecha de incorporación al repositorio.
+
+Un hash permite comparar bytes de dos objetos; por sí solo no acredita autoría, origen, fecha cierta, veracidad del contenido ni custodia continua. Un enlace externo puede cambiar o desaparecer. Para investigaciones críticas, conservar metadatos suficientes y una copia autorizada cuando sea legal y técnicamente posible.
 
 ## Límites actuales
 
-Este modelo define el procedimiento documental. No se ha implementado todavía un sistema automático de captura de fuentes, sellado de tiempo, hash, respaldo externo, firma electrónica ni archivo de evidencia inmutable. Esos controles quedan para etapas posteriores.
+Este modelo es una propuesta procedimental. No acredita que estén implementados captura automática, sellado de tiempo confiable, firma electrónica, hash automatizado, respaldo externo, archivo inmutable ni un sistema de gestión de evidencias. Su implementación deberá tener responsable, alcance, pruebas y evidencia fechada.
