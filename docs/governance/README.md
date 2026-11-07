@@ -1,6 +1,6 @@
 # Gobierno documental de ZivaLatam
 
-> **Estado:** EN DESARROLLO — propuesta pendiente de aprobación institucional.  
+> **Estado:** APROBADO — aprobación institucional registrada en ZIVA-APR-001.  
 > **Ámbito:** repositorio maestro `ZivaLatam-cl/zivalatam-master`.  
 > **Versión:** 0.2.0 — revisión de consistencia documental.
 
@@ -30,7 +30,7 @@ El repositorio maestro es el registro oficial de los documentos que hayan sido i
 - Commit: unidad versionada de cambio; no representa por sí solo una aprobación.
 - Merge: integración técnica; no sustituye la aprobación institucional ni revisiones profesionales pendientes.
 
-Un documento puede estar técnicamente integrado y seguir marcado como borrador si la aprobación institucional no se ha registrado. La vigencia debe constar en sus metadatos y en el registro de aprobaciones.
+La aprobación institucional se acredita mediante el registro APR vinculado a la versión exacta. La integración técnica en `main` no acredita por sí sola implementación ni verificación.
 
 ## Estructura documental inicial
 
@@ -100,4 +100,4 @@ Los estados **APROBADO**, **IMPLEMENTADO** y **VERIFICADO** no son intercambiabl
 
 Toda modificación de estas reglas debe pasar por Pull Request. La protección de `main`, revisiones obligatorias y controles automáticos solo se considerarán activos cuando su configuración haya sido comprobada en GitHub.
 
-Este marco permanece EN DESARROLLO hasta que exista aprobación institucional registrada. Su publicación no demuestra que los controles descritos estén implementados ni que ZivaLatam tenga una estructura societaria o regulatoria determinada.
+Este marco está APROBADO para el gobierno documental interno de ZivaLatam. Su aprobación no demuestra que los controles descritos estén implementados ni que ZivaLatam tenga una estructura societaria o regulatoria determinada.
