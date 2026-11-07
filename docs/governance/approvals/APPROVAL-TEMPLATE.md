@@ -1,4 +1,4 @@
-# APR-AAAA-NNNN: Título de la aprobación
+# ZIVA-APR-NNN: Título de la aprobación
 
 - **Estado:** BORRADOR
 - **Documento aprobado:** ruta y título
