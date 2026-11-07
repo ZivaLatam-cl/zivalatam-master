@@ -1,33 +1,47 @@
-# ZIVA-APR-NNN: Título de la aprobación
+# ZIVA-APR-NNN: Registro de aprobación
 
 - **Estado:** BORRADOR
-- **Documento aprobado:** ruta y título
-- **Versión exacta:** commit SHA / tag
-- **Tipo de decisión:** aprobación / rechazo / aprobación condicionada / revocación
-- **Persona u órgano:** pendiente
-- **Cargo o autoridad:** pendiente de acreditar
-- **Fecha:** AAAA-MM-DD
-- **Pull Request:** URL
+- **Tipo:** aprobación / rechazo / aprobación condicionada / suspensión / revocación
+- **Documento o decisión:** ruta, título e ID
+- **Versión exacta:** versión y commit SHA o referencia inmutable
+- **Pull Request:** URL o no aplica
 - **ADR relacionado:** ID o no aplica
+- **Persona u órgano que decide:** pendiente
+- **Cargo / autoridad interna:** pendiente de identificar
+- **Fecha y zona horaria:** AAAA-MM-DD HH:MM TZ
+- **Revisión técnica/documental:** referencia o no realizada
+- **Revisión profesional:** ID ZIVA-REV-NNN / no requerida con fundamento / pendiente
 
-## Alcance
+## 1. Decisión
 
-¿Qué contenido exacto queda aprobado? Indicar exclusiones y condiciones.
+Describir la decisión explícita y su alcance. No utilizar este registro para atribuir una revisión profesional no realizada.
 
-## Fundamento
+## 2. Alcance aprobado o rechazado
 
-Resumen de la revisión y documentos o evidencias considerados.
+Identificar rutas, documentos, secciones, versiones y exclusiones. La aprobación no se extiende automáticamente a versiones futuras ni a documentos no enumerados.
 
-## Condiciones o acciones pendientes
+## 3. Fundamento
 
-- Ninguna / enumerar.
+Resumir los antecedentes, riesgos, evidencias y revisiones considerados. Distinguir los asuntos pendientes de los resueltos.
 
-## Evidencia de autorización
+## 4. Condiciones y acciones pendientes
 
-Enlace a la aprobación explícita en GitHub u otro registro institucional autorizado. No insertar credenciales ni firmas escaneadas innecesarias.
+- Condición:
+- Responsable:
+- Fecha objetivo:
+- Evidencia de cierre:
+- Efecto si no se cumple:
 
-## Historial
+## 5. Declaración de autoridad y limitaciones
+
+Identificar la autoridad interna que decide y el alcance de sus facultades. Una aprobación interna no sustituye revisión profesional, autorización regulatoria, obligación legal ni aceptación de terceros. Si una persona concentra autoría y aprobación, declararlo expresamente; no presentarlo como revisión independiente.
+
+## 6. Evidencia de autorización
+
+Enlace a la confirmación explícita en GitHub u otro registro institucional autorizado. No insertar contraseñas, códigos MFA, tokens, claves privadas ni firmas escaneadas innecesarias.
+
+## 7. Historial
 
 | Fecha | Cambio | Responsable |
 |---|---|---|
-| AAAA-MM-DD | Creación | |
+| AAAA-MM-DD | Creación del borrador | |
