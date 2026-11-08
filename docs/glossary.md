@@ -1,9 +1,9 @@
 # Glosario institucional de ZivaLatam
 
-> **Estado:** BORRADOR DE VOCABULARIO — versión 0.1  
+> **Estado:** APROBADO PARA USO COMO VOCABULARIO CONTROLADO — versión 0.2 (APR-004)  
 > **Finalidad:** mantener un lenguaje consistente y evitar que los mismos términos se utilicen con significados distintos.
 
-Este glosario recoge el uso conceptual declarado o trabajado hasta la fecha. No convierte nombres o capacidades propuestas en productos implementados.
+Este glosario recoge el uso conceptual declarado o trabajado hasta la fecha. Su aprobación normaliza el vocabulario documental, pero no convierte nombres candidatos o capacidades propuestas en marcas disponibles, productos implementados ni decisiones técnicas definitivas.
 
 | Término | Uso en la documentación | Estado / cautela |
 |---|---|---|
