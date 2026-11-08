@@ -2,7 +2,7 @@
 
 Este repositorio es el punto central de documentación y trazabilidad institucional de **ZivaLatam**. Su finalidad es organizar, conservar y controlar la documentación que sustenta la visión, el gobierno, las decisiones, las políticas, los estándares y la coordinación del ecosistema.
 
-> **Estado del repositorio:** base documental institucional inicial. La existencia de documentos aprobados no significa que los sistemas, servicios, controles o capacidades descritos estén implementados ni operativos.
+> **Estado del repositorio:** base documental institucional con arquitectura del conocimiento aprobada (ZIVA-KNO-001 v0.2; APR-004). La existencia de documentos aprobados no significa que los sistemas, servicios, controles o capacidades descritos estén implementados ni operativos.
 
 ## 1. Propósito
 
@@ -57,7 +57,7 @@ zivalatam-master/
 └── README.md
 ```
 
-Esta representación describe la estructura incorporada en la rama de trabajo de la arquitectura del conocimiento. Los cambios pendientes de revisión no deben interpretarse como contenido ya integrado en `main`. Las áreas futuras no se crean como directorios vacíos: se incorporarán cuando exista contenido real.
+La representación muestra la estructura documental vigente tras la integración de la arquitectura del conocimiento. Las áreas futuras no se crean como directorios vacíos: se incorporarán cuando exista contenido real.
 
 ## 4. Áreas documentales
 
@@ -103,7 +103,8 @@ La aprobación de una política o procedimiento no acredita que sus controles es
 ## 8. Documentación de referencia
 
 - [Portal de conocimiento institucional](docs/README.md) — navegación y acceso al conocimiento.
-- [Arquitectura del conocimiento](docs/knowledge-architecture.md) — propuesta de organización, trazabilidad y reutilización.
+- [ZIVA-APR-004 — Aprobación de la arquitectura del conocimiento](docs/governance/approvals/ZIVA-APR-004-knowledge-architecture.md)
+- [Arquitectura del conocimiento](docs/knowledge-architecture.md) — arquitectura aprobada de organización, trazabilidad y reutilización.
 - [Mapa de conocimiento](docs/knowledge-map.md) — dominios y relaciones.
 - [Índice maestro](docs/master-index.md) — catálogo de documentos.
 - [Glosario institucional](docs/glossary.md) — términos y nombres consistentes.
