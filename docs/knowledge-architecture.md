@@ -4,11 +4,11 @@
 |---|---|
 | Identificador | `ZIVA-KNO-001` |
 | Versión | 0.2 |
-| Estado | PROPUESTA PARA REVISIÓN |
+| Estado | APROBADA — APR-004 |
 | Dominio | Gobierno del conocimiento |
 | Responsable | Por designar formalmente |
 | Fecha de elaboración | 2026-11-08 |
-| Revisión | Pendiente de validación institucional |
+| Revisión | Aprobación institucional registrada el 2026-11-08 mediante APR-004 |
 | Sustituye | Propuesta conceptual 0.1, no publicada como norma vigente |
 
 ## 1. Objetivo
@@ -198,4 +198,4 @@ Las fuentes anteriores son referencias de diseño. La interpretación de las fun
 
 ## 15. Aprobación y límites
 
-Esta versión 0.2 se presenta como propuesta para revisión. No modifica por sí sola el marco de gobierno aprobado ni activa automatizaciones, protección de ramas, publicación web, responsables o controles técnicos. La adopción institucional de esta arquitectura deberá registrarse conforme al procedimiento de aprobación vigente.
+Esta versión 0.2 queda aprobada como arquitectura documental institucional mediante ZIVA-APR-004, dentro del alcance y las exclusiones allí registrados. Su aprobación no activa automatizaciones, protección de ramas, publicación web, CODEOWNERS, responsables formales ni controles técnicos; tampoco acredita implementación de sistemas o capacidades de negocio. Los cambios materiales futuros deberán someterse al procedimiento de revisión y aprobación vigente.
