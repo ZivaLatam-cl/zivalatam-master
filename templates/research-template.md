@@ -1,5 +1,7 @@
 # [Pregunta o título de investigación]
 
+> **Estado de esta plantilla:** PLANTILLA APROBADA PARA USO — APR-004. Cada investigación creada con este formato conserva su propio estado y requiere revisión y aprobación según corresponda.
+
 > Completar los campos y eliminar las instrucciones antes de publicar.
 
 | Campo | Valor |
