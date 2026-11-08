@@ -1,5 +1,7 @@
 # [Título del expediente]
 
+> **Estado de esta plantilla:** PLANTILLA APROBADA PARA USO — APR-004. La aprobación de la plantilla no implica aprobación de los expedientes que se creen a partir de ella.
+
 > Completar los campos y eliminar las instrucciones antes de publicar.
 
 | Campo | Valor |
