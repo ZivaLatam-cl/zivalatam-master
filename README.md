@@ -28,6 +28,12 @@ zivalatam-master/
 ├── .github/
 │   └── pull_request_template.md
 ├── docs/
+│   ├── README.md
+│   ├── knowledge-architecture.md
+│   ├── knowledge-map.md
+│   ├── master-index.md
+│   ├── glossary.md
+│   ├── current-priorities.md
 │   └── governance/
 │       ├── README.md
 │       ├── commit-conventions.md
@@ -45,21 +51,25 @@ zivalatam-master/
 │           ├── ZIVA-APR-001-governance-framework.md
 │           ├── ZIVA-APR-002-integrity-retention.md
 │           └── ZIVA-APR-003-repository-readme.md
+├── templates/
+│   ├── knowledge-record-template.md
+│   └── research-template.md
 └── README.md
 ```
 
-Esta representación describe la estructura documental incorporada en esta etapa. No anticipa directorios o componentes que todavía no hayan sido creados y aprobados.
+Esta representación describe la estructura incorporada en la rama de trabajo de la arquitectura del conocimiento. Los cambios pendientes de revisión no deben interpretarse como contenido ya integrado en `main`. Las áreas futuras no se crean como directorios vacíos: se incorporarán cuando exista contenido real.
 
 ## 4. Áreas documentales
 
 | Área | Función |
 |---|---|
+| Portal e índices | Facilitar la navegación, localización y reutilización del conocimiento |
 | Gobierno documental | Reglas para crear, revisar, aprobar, publicar y mantener documentos |
 | Trazabilidad | Relación entre necesidades, investigaciones, fuentes, evidencias, decisiones, aprobaciones y versiones |
 | Integridad y conservación | Requisitos y procedimientos para custodia, acceso, respaldo, recuperación y conservación |
 | Registro de decisiones | Documentación de decisiones institucionales y técnico-arquitectónicas mediante ADR |
 | Registro de aprobaciones | Evidencia de aprobaciones, rechazos, condiciones, suspensiones y revocaciones mediante APR |
-| Áreas futuras | Investigación, arquitectura, productos, tecnología, operaciones y cumplimiento, cuando su alcance y estructura sean definidos |
+| Áreas futuras | Fundación, ecosistema, capacidades, productos, casos de uso, investigación y arquitectura, cuando su alcance esté definido |
 
 ## 5. Relación entre ZivaLatam y sus iniciativas
 
@@ -74,7 +84,7 @@ Cada iniciativa deberá tener alcance, responsable, estado, evidencia y decision
 - Los Pull Requests documentan el propósito, alcance, evidencias, revisiones y aprobación de cada cambio.
 - Los commits conservan el historial de modificaciones.
 - Los registros APR vinculan una decisión de aprobación con una versión y un commit concretos.
-- La integración técnica (*merge*) no sustituye una aprobación institucional ni una revisión profesional requerida.
+- La integración técnica (*merge*) no sustituye la aprobación institucional ni revisiones profesionales pendientes.
 
 Consulta el [marco de gobierno documental](docs/governance/README.md) para conocer las reglas completas.
 
@@ -92,15 +102,23 @@ La aprobación de una política o procedimiento no acredita que sus controles es
 
 ## 8. Documentación de referencia
 
+- [Portal de conocimiento institucional](docs/README.md) — navegación y acceso al conocimiento.
+- [Arquitectura del conocimiento](docs/knowledge-architecture.md) — propuesta de organización, trazabilidad y reutilización.
+- [Mapa de conocimiento](docs/knowledge-map.md) — dominios y relaciones.
+- [Índice maestro](docs/master-index.md) — catálogo de documentos.
+- [Glosario institucional](docs/glossary.md) — términos y nombres consistentes.
+- [Prioridades documentales](docs/current-priorities.md) — focos de trabajo y pendientes.
 - [Gobierno documental](docs/governance/README.md)
 - [Convenciones de commits](docs/governance/commit-conventions.md)
 - [Revisión y aprobación](docs/governance/review-and-approval.md)
 - [Modelo de trazabilidad](docs/governance/traceability-model.md)
 - [Política de integridad, conservación y respaldo](docs/governance/integrity-retention.md)
-- [Procedimiento de custodia, acceso, respaldo y recuperación](docs/governance/custody-access-recovery.md)
+- [Procedimiento de custodia, acceso y recuperación](docs/governance/custody-access-recovery.md)
 - [Registros operativos de integridad y conservación](docs/governance/integrity-registers.md)
 - [Registro de decisiones](docs/governance/decision-records/README.md)
 - [Registro de aprobaciones](docs/governance/approvals/README.md)
+- [Plantilla de ficha de conocimiento](templates/knowledge-record-template.md)
+- [Plantilla de investigación](templates/research-template.md)
 - [ZIVA-APR-003 — Aprobación del README principal](docs/governance/approvals/ZIVA-APR-003-repository-readme.md)
 
 ## 9. Límites institucionales
