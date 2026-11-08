@@ -8,7 +8,7 @@
 
 | Orden | Área | Resultado documental esperado | Dependencia / condición | Estado |
 |---|---|---|---|---|
-| 1 | Arquitectura del conocimiento | Portal, índice, mapa, glosario y plantillas aprobados | APR-004; integración del PR #5 | Aprobada; integración en curso |
+| 1 | Arquitectura del conocimiento | Portal, índice, mapa, glosario y plantillas aprobados | APR-004; integración del PR #5 | Aprobada para integración (PR #5) |
 | 2 | Fundación institucional | Consolidar historia, motivación, propósito, identidad, misión, visión y principios | Iteración y validación del fundador | Pendiente |
 | 3 | Ecosistema | Crear mapa y registro de iniciativas con estados y relaciones | Consolidación del portafolio | Pendiente |
 | 4 | ZivaID | Expediente principal de identidad digital y límites de alcance | Decisiones de producto y evidencia | Pendiente |
