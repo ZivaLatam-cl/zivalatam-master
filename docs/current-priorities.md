@@ -1,6 +1,6 @@
 # Prioridades documentales de ZivaLatam
 
-> **Estado:** REGISTRO DE TRABAJO — versión 0.1  
+> **Estado:** REGISTRO DE TRABAJO APROBADO — versión 0.2 (APR-004)  
 > **Actualización:** 2026-11-08  
 > **Nota:** este documento organiza trabajo documental; no constituye un plan de producto aprobado ni compromete fechas de implementación.
 
@@ -8,7 +8,7 @@
 
 | Orden | Área | Resultado documental esperado | Dependencia / condición | Estado |
 |---|---|---|---|---|
-| 1 | Arquitectura del conocimiento | Validar portal, índice, mapa, glosario y plantillas | Revisión y aprobación institucional | En PR |
+| 1 | Arquitectura del conocimiento | Portal, índice, mapa, glosario y plantillas aprobados | APR-004; integración del PR #5 | Aprobada; integración en curso |
 | 2 | Fundación institucional | Consolidar historia, motivación, propósito, identidad, misión, visión y principios | Iteración y validación del fundador | Pendiente |
 | 3 | Ecosistema | Crear mapa y registro de iniciativas con estados y relaciones | Consolidación del portafolio | Pendiente |
 | 4 | ZivaID | Expediente principal de identidad digital y límites de alcance | Decisiones de producto y evidencia | Pendiente |
@@ -27,4 +27,4 @@
 
 ## Próxima revisión
 
-Revisar este registro después de la validación de la arquitectura documental y antes de iniciar la consolidación de los expedientes fundacionales.
+Revisar este registro después de la integración de la arquitectura documental y antes de iniciar la consolidación de los expedientes fundacionales.
