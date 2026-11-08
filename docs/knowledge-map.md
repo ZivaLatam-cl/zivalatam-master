@@ -1,9 +1,9 @@
 # Mapa de conocimiento de ZivaLatam
 
-> **Estado:** PROPUESTA DE NAVEGACIÓN — versión 0.1  
+> **Estado:** APROBADO COMO MAPA CONCEPTUAL — versión 0.2 (APR-004)  
 > **Propósito:** mostrar dónde encontrar información y cómo se conectan las áreas.
 
-Este mapa describe dominios de conocimiento, no departamentos, sociedades, productos operativos ni sistemas implementados. Las áreas futuras se incorporarán al repositorio cuando tengan contenido real.
+Este mapa aprobado describe dominios de conocimiento, no departamentos, sociedades, productos operativos ni sistemas implementados. Las áreas futuras se incorporarán al repositorio cuando tengan contenido real.
 
 ## Rutas de navegación
 
