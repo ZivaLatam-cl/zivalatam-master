@@ -1,8 +1,8 @@
 # ZivaLatam — Portal de conocimiento institucional
 
-> **Estado:** PROPUESTA DE NAVEGACIÓN — versión 0.2  
+> **Estado:** APROBADO — portal de navegación institucional, versión 0.2 (APR-004)  
 > **Repositorio:** `ZivaLatam-cl/zivalatam-master`  
-> **Fuente documental:** la rama `main` contiene los documentos institucionales publicados. Este portal está en revisión en su Pull Request y no se considera vigente hasta su integración conforme al gobierno documental.
+> **Fuente documental:** `main` es la referencia documental institucional. Este portal forma parte de la arquitectura del conocimiento aprobada mediante APR-004.
 
 Bienvenido al punto de entrada del conocimiento institucional de ZivaLatam. Este portal está diseñado para que una persona pueda comprender el proyecto, localizar un documento, seguir la evidencia de una decisión y reutilizar conocimiento sin depender de conversaciones anteriores ni conocer de antemano la estructura del repositorio.
 
@@ -62,4 +62,4 @@ Una propuesta aprobada como criterio de diseño no significa que exista un produ
 
 Los cambios se preparan mediante ramas y Pull Requests. La integración en `main` no sustituye las aprobaciones institucionales ni las revisiones profesionales requeridas. No incorporar secretos, credenciales, claves privadas ni datos personales innecesarios.
 
-Consulta [README del repositorio](../README.md) para el alcance institucional y [gobierno documental](governance/README.md) para el procedimiento vigente.
+Consulta [README del repositorio](../README.md) para el alcance institucional, [gobierno documental](governance/README.md) para el procedimiento vigente y [APR-004](governance/approvals/ZIVA-APR-004-knowledge-architecture.md) para el registro de aprobación de esta arquitectura.
