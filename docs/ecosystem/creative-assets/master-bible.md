@@ -5,7 +5,7 @@
 | Tipo documental | Biblia narrativa y creativa |
 | Identificador | ZIVA-CREATIVE-001 (propuesto; pendiente de asignación formal) |
 | Versión | 0.1 |
-| Estado | BORRADOR — EN REVISIÓN DEL FUNDADOR |
+| Estado | APROBADO — aprobación institucional interna registrada en ZIVA-APR-005 |
 | Titularidad institucional prevista | ZivaLatam, sujeta a formalización jurídica y revisión de derechos |
 | Fuente histórica principal | Informe Maestro ZafuPay — Universo de mascotas, leyenda fundacional y borradores de la serie animada |
 | Decisión de incorporación | [Decisión de adopción y procedencia](adoption-and-provenance.md) |
