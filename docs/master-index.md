@@ -20,18 +20,18 @@ El índice se mantiene deliberadamente curado. Cada entrada debe tener una ruta 
 
 | Documento | Ruta | Estado |
 |---|---|---|
-| Historia y evolución anterior a ZivaLatam | [Expediente histórico](foundation/history-and-evolution.md) | Borrador — en revisión del fundador |
+| Historia y evolución anterior a ZivaLatam | [Expediente histórico](foundation/history-and-evolution.md) | Aprobado según APR-005 |
 
 ## Ecosistema e iniciativas históricas
 
 | Documento | Ruta | Estado |
 |---|---|---|
-| BREGPersonal — concepto y experimentación | [Expediente BREGPersonal](ecosystem/historical-initiatives/bregpersonal.md) | Borrador — en revisión del fundador |
-| Patrimonio creativo de ZivaLatam | [Universo creativo](ecosystem/creative-assets/README.md) | Borrador — en revisión del fundador |
-| Decisión de adopción y procedencia creativa | [Procedencia](ecosystem/creative-assets/adoption-and-provenance.md) | Borrador — en revisión del fundador |
-| Fuente histórica ZafuPay | [Informe de referencia](ecosystem/creative-assets/historical-sources/zafupay-master-report.md) | Consolidación documental — en revisión |
-| Biblia Maestra del Universo Creativo de ZivaLatam | [Biblia Maestra](ecosystem/creative-assets/master-bible.md) | Borrador — en revisión del fundador |
-| Registro de continuidad | [Continuidad](ecosystem/creative-assets/continuity-register.md) | Borrador — en revisión del fundador |
+| BREGPersonal — concepto y experimentación | [Expediente BREGPersonal](ecosystem/historical-initiatives/bregpersonal.md) | Aprobado según APR-005 |
+| Patrimonio creativo de ZivaLatam | [Universo creativo](ecosystem/creative-assets/README.md) | Aprobado según APR-005 |
+| Decisión de adopción y procedencia creativa | [Procedencia](ecosystem/creative-assets/adoption-and-provenance.md) | Aprobado según APR-005 |
+| Fuente histórica ZafuPay | [Informe de referencia](ecosystem/creative-assets/historical-sources/zafupay-master-report.md) | Consolidación editorial aprobada según APR-005 |
+| Biblia Maestra del Universo Creativo de ZivaLatam | [Biblia Maestra](ecosystem/creative-assets/master-bible.md) | Aprobada según APR-005 |
+| Registro de continuidad | [Continuidad](ecosystem/creative-assets/continuity-register.md) | Aprobado según APR-005 |
 
 ## Gobierno documental existente en main
 
@@ -64,6 +64,8 @@ El índice se mantiene deliberadamente curado. Cada entrada debe tener una ruta 
 - Los documentos superados deben enlazar a su reemplazo y conservar trazabilidad.
 
 ## Registro de aprobación
+
+La historia anterior a ZivaLatam, el expediente BREGPersonal y el patrimonio creativo de ZivaLatam incluidos en el PR #6 fueron aprobados institucionalmente en el alcance exacto descrito por [ZIVA-APR-005](governance/approvals/ZIVA-APR-005-founder-history-bregpersonal-creative-universe.md).
 
 La arquitectura documental y los nueve archivos de este conjunto fueron aprobados institucionalmente dentro del alcance de [ZIVA-APR-004](governance/approvals/ZIVA-APR-004-knowledge-architecture.md). La aprobación de plantillas autoriza su uso como formatos; no aprueba por adelantado los documentos que se creen con ellas.
 
