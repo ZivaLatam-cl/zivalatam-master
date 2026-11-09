@@ -4,7 +4,7 @@
 |---|---|
 | Tipo documental | Registro de discrepancias y decisiones narrativas |
 | Versión | 0.1 |
-| Estado | BORRADOR — EN REVISIÓN DEL FUNDADOR |
+| Estado | APROBADO — aprobación institucional interna registrada en ZIVA-APR-005 |
 | Documento relacionado | [Biblia Maestra](master-bible.md) |
 | Fuente de contraste | [Informe histórico ZafuPay](historical-sources/zafupay-master-report.md) |
 
