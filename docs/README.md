@@ -11,9 +11,9 @@ Bienvenido al punto de entrada del conocimiento institucional de ZivaLatam. Este
 | Si necesitas… | Empieza aquí |
 |---|---|
 | Entender cómo se organiza el conocimiento | [Arquitectura del conocimiento](knowledge-architecture.md) |
-| Reconstruir el origen y las etapas anteriores a ZivaLatam | [Historia y evolución](foundation/history-and-evolution.md) |
-| Consultar el antecedente experimental de BREGPersonal | [Expediente BREGPersonal](ecosystem/historical-initiatives/bregpersonal.md) |
-| Consultar el patrimonio creativo y sus fuentes | [Universo creativo de ZivaLatam](ecosystem/creative-assets/README.md) |
+| Reconstruir el origen y las etapas anteriores a ZivaLatam | [Historia y evolución](foundation/history-and-evolution.md) — aprobado según APR-005 |
+| Consultar el antecedente experimental de BREGPersonal | [Expediente BREGPersonal](ecosystem/historical-initiatives/bregpersonal.md) — aprobado según APR-005 |
+| Consultar el patrimonio creativo y sus fuentes | [Universo creativo de ZivaLatam](ecosystem/creative-assets/README.md) — aprobado según APR-005 |
 | Saber qué áreas y relaciones componen el ecosistema | [Mapa de conocimiento](knowledge-map.md) |
 | Encontrar un documento por tema, identificador o estado | [Índice maestro](master-index.md) |
 | Comprender los términos y nombres institucionales | [Glosario](glossary.md) |
