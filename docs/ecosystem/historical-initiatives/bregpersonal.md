@@ -4,7 +4,7 @@
 |---|---|
 | Tipo documental | Expediente histórico de iniciativa / producto conceptual |
 | Versión | 0.1 |
-| Estado | BORRADOR — EN REVISIÓN DEL FUNDADOR |
+| Estado | APROBADO — aprobación institucional interna registrada en ZIVA-APR-005 |
 | Dominio | Ecosistema / iniciativas históricas |
 | Fuente principal | Declaraciones y reconstrucción del fundador, noviembre de 2026 |
 | Fuentes complementarias | Repositorio personal público `breg-personal-ziva`, README y código revisados |
