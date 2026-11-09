@@ -16,6 +16,18 @@ El índice se mantiene deliberadamente curado. Cada entrada debe tener una ruta 
 | Glosario | [Glosario](glossary.md) | Aprobado para uso según APR-004 |
 | Prioridades documentales | [Prioridades](current-priorities.md) | Registro aprobado según APR-004 |
 
+## Fundación e historia
+
+| Documento | Ruta | Estado |
+|---|---|---|
+| Historia y evolución anterior a ZivaLatam | [Expediente histórico](foundation/history-and-evolution.md) | Borrador — en revisión del fundador |
+
+## Iniciativas históricas
+
+| Documento | Ruta | Estado |
+|---|---|---|
+| BREGPersonal — concepto y experimentación | [Expediente BREGPersonal](ecosystem/historical-initiatives/bregpersonal.md) | Borrador — en revisión del fundador |
+
 ## Gobierno documental existente en main
 
 | Documento | Ruta | Estado conocido |
