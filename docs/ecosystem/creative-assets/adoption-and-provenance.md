@@ -4,7 +4,7 @@
 |---|---|
 | Tipo documental | Registro de decisión fundacional y procedencia creativa |
 | Versión | 0.1 |
-| Estado | BORRADOR — EN REVISIÓN DEL FUNDADOR |
+| Estado | APROBADO — aprobación institucional interna registrada en ZIVA-APR-005 |
 | Fecha de registro | 2026-11-08 |
 | Decisor | Fundador de ZivaLatam, según declaración expresa en esta conversación |
 | Material de referencia | Informe Maestro ZafuPay — Universo de mascotas, leyenda fundacional y borradores de la serie animada |
