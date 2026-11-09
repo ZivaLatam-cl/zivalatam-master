@@ -13,6 +13,7 @@ Bienvenido al punto de entrada del conocimiento institucional de ZivaLatam. Este
 | Entender cómo se organiza el conocimiento | [Arquitectura del conocimiento](knowledge-architecture.md) |
 | Reconstruir el origen y las etapas anteriores a ZivaLatam | [Historia y evolución](foundation/history-and-evolution.md) |
 | Consultar el antecedente experimental de BREGPersonal | [Expediente BREGPersonal](ecosystem/historical-initiatives/bregpersonal.md) |
+| Consultar el patrimonio creativo y sus fuentes | [Universo creativo de ZivaLatam](ecosystem/creative-assets/README.md) |
 | Saber qué áreas y relaciones componen el ecosistema | [Mapa de conocimiento](knowledge-map.md) |
 | Encontrar un documento por tema, identificador o estado | [Índice maestro](master-index.md) |
 | Comprender los términos y nombres institucionales | [Glosario](glossary.md) |
@@ -21,8 +22,8 @@ Bienvenido al punto de entrada del conocimiento institucional de ZivaLatam. Este
 
 ## Navegación por área
 
-- **Fundación institucional:** identidad, historia, propósito, misión, visión y principios. Se incorporará cuando los expedientes estén preparados y revisados.
-- **Ecosistema:** capacidades compartidas, productos, módulos, relaciones y evolución.
+- **Fundación institucional:** identidad, historia, propósito, misión, visión y principios.
+- **Ecosistema:** capacidades compartidas, productos, módulos, relaciones, patrimonio creativo y evolución.
 - **Investigación y evidencia:** estudios, normas, estándares, fuentes y evaluaciones.
 - **Casos de uso y mercados:** problemas, segmentos, procesos y validación.
 - **Arquitectura:** modelos conceptuales, decisiones, especificaciones y documentación para desarrolladores.
