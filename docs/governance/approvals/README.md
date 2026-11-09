@@ -40,3 +40,4 @@ Distinguir BORRADOR, APROBADO, RECHAZADO, CONDICIONADO, SUSPENDIDO y REVOCADO. U
 - [ZIVA-APR-002 — Integridad, conservación y respaldo](ZIVA-APR-002-integrity-retention.md)
 - [ZIVA-APR-003 — README principal del repositorio](ZIVA-APR-003-repository-readme.md)
 - [ZIVA-APR-004 — Arquitectura del conocimiento institucional](ZIVA-APR-004-knowledge-architecture.md)
+- [ZIVA-APR-005 — Historia fundacional, BREGPersonal y patrimonio creativo](ZIVA-APR-005-founder-history-bregpersonal-creative-universe.md)
