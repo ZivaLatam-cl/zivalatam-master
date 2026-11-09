@@ -4,7 +4,7 @@
 |---|---|
 | Tipo documental | Registro de fuente histórica y consolidación de referencia |
 | Versión | 0.1 |
-| Estado | BORRADOR — EN REVISIÓN DEL FUNDADOR |
+| Estado | APROBADO — aprobación institucional interna registrada en ZIVA-APR-005 |
 | Fuente declarada | Informe compartido por el fundador en conversación, noviembre de 2026 |
 | Etapa de origen | ZAFU / ZafuPay |
 | Uso actual | Fuente histórica para la Biblia Maestra del Universo Creativo de ZivaLatam |
