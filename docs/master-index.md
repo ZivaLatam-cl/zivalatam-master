@@ -22,11 +22,16 @@ El índice se mantiene deliberadamente curado. Cada entrada debe tener una ruta 
 |---|---|---|
 | Historia y evolución anterior a ZivaLatam | [Expediente histórico](foundation/history-and-evolution.md) | Borrador — en revisión del fundador |
 
-## Iniciativas históricas
+## Ecosistema e iniciativas históricas
 
 | Documento | Ruta | Estado |
 |---|---|---|
 | BREGPersonal — concepto y experimentación | [Expediente BREGPersonal](ecosystem/historical-initiatives/bregpersonal.md) | Borrador — en revisión del fundador |
+| Patrimonio creativo de ZivaLatam | [Universo creativo](ecosystem/creative-assets/README.md) | Borrador — en revisión del fundador |
+| Decisión de adopción y procedencia creativa | [Procedencia](ecosystem/creative-assets/adoption-and-provenance.md) | Borrador — en revisión del fundador |
+| Fuente histórica ZafuPay | [Informe de referencia](ecosystem/creative-assets/historical-sources/zafupay-master-report.md) | Consolidación documental — en revisión |
+| Biblia Maestra del Universo Creativo de ZivaLatam | [Biblia Maestra](ecosystem/creative-assets/master-bible.md) | Borrador — en revisión del fundador |
+| Registro de continuidad | [Continuidad](ecosystem/creative-assets/continuity-register.md) | Borrador — en revisión del fundador |
 
 ## Gobierno documental existente en main
 
