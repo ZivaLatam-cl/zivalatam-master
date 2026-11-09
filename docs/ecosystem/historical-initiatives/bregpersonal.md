@@ -235,7 +235,7 @@ Sin embargo, no se ha decidido que BREGPersonal sea un producto actual de ZivaLa
 - [Repositorio breg-personal-ziva](https://github.com/lusdrey523/breg-personal-ziva).
 - [Repositorio BREGPersonal](https://github.com/lusdrey523/BREGPersonal).
 - [Repositorio breg-personal](https://github.com/lusdrey523/breg-personal).
-- [Archivo histórico mi historia.pdf](../../) — referencia descriptiva al archivo aportado en la conversación; su ubicación institucional y versión deberán asignarse si se incorpora al repositorio.
+- Archivo histórico **mi historia.pdf**, aportado en la conversación; todavía no está incorporado a este repositorio. Su ubicación institucional y versión deberán asignarse si se decide conservar una copia aquí.
 
 ### Precaución sobre fechas
 Las fechas de commits reflejan registros de Git. La beta BREGPersonal revisada presenta actividad registrada en 2026; esto no determina cuándo surgió originalmente la idea ni cuándo se elaboró cada requisito.
