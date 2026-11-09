@@ -4,7 +4,7 @@ Esta área organiza las capacidades, productos, módulos e iniciativas relaciona
 
 ## Patrimonio creativo
 
-- [Universo creativo de ZivaLatam](creative-assets/README.md) — universo narrativo incorporado por decisión declarada del fundador, con procedencia histórica ZAFU/ZafuPay, fuente de referencia, Biblia Maestra y registro de continuidad. Estado: borrador en revisión.
+- [Universo creativo de ZivaLatam](creative-assets/README.md) — universo narrativo incorporado por decisión declarada del fundador, con procedencia histórica ZAFU/ZafuPay, fuente de referencia, Biblia Maestra y registro de continuidad. Estado: aprobado institucionalmente.
 
 ## Iniciativas históricas
 
