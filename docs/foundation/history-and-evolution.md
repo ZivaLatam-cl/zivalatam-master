@@ -4,7 +4,7 @@
 |---|---|
 | Tipo documental | Expediente histórico institucional |
 | Versión | 0.1 |
-| Estado | BORRADOR — EN REVISIÓN DEL FUNDADOR |
+| Estado | APROBADO — aprobación institucional interna registrada en ZIVA-APR-005 |
 | Dominio | Fundación institucional / Historia y evolución |
 | Fuente principal | Testimonio y reconstrucción del fundador, noviembre de 2026 |
 | Fuentes complementarias | Archivos históricos aportados y repositorios personales públicos identificados en la sección 8 |
