@@ -1,6 +1,6 @@
 # Patrimonio creativo de ZivaLatam
 
-> **Estado:** BORRADOR — EN REVISIÓN DEL FUNDADOR  
+> **Estado:** APROBADO — aprobación institucional interna registrada en ZIVA-APR-005
 > **Ámbito:** universo narrativo, personajes, símbolos, historias y materiales audiovisuales  
 > **Procedencia histórica principal:** etapa ZAFU / ZafuPay  
 > **Decisión de incorporación:** decisión declarada del fundador, noviembre de 2026
@@ -24,4 +24,4 @@ El informe histórico se conserva como antecedente y no se modifica retrospectiv
 
 La incorporación documental no demuestra por sí sola registro de derechos, cesiones de terceros, protección marcaria, producción audiovisual, publicación ni explotación comercial. La existencia de guiones, conceptos e imágenes de referencia no acredita una serie producida.
 
-Todos los documentos de esta área permanecen en borrador hasta la revisión y aprobación expresa correspondiente.
+Todos los documentos de esta área se encuentran aprobados institucionalmente en el alcance registrado por ZIVA-APR-005.
